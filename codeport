@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srikar Maadhu | Data Engineer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #374151;
+    }
+    nav a {
+      color: #fff;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background-color: #2563eb;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #1f2937;
+      margin-bottom: 40px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f2937;
+      color: #fff;
+    }
+    a.external {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a.external:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Srikar Maadhu</h1>
+    <p>Data Engineer | Cloud & Analytics Specialist</p>
+    <p>Email: your@email.com | <a class="external" href="#" target="_blank">LinkedIn</a> | <a class="external" href="#" target="_blank">GitHub</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Results-driven Data Engineer with 3+ years of experience designing, migrating, optimizing, and automating data solutions across enterprise environments. Experienced in cloud platforms (AWS & Azure), database engineering (Oracle, MySQL, Snowflake), and modern analytics stacks. Proven ability to modernize legacy systems and deliver actionable insights. Currently sharpening skills in AI/ML and advanced coding through HackerRank and LeetCode.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="card"><strong>Programming:</strong> Python, SQL, PLSQL</div>
+      <div class="card"><strong>Cloud:</strong> AWS (S3, Lambda, Glue, Redshift, Athena), Azure (ADF, Synapse, Databricks)</div>
+      <div class="card"><strong>Databases:</strong> Oracle, MySQL, Snowflake</div>
+      <div class="card"><strong>Data Engineering:</strong> Airflow, dbt, Databricks, ETL/ELT pipelines</div>
+      <div class="card"><strong>Other:</strong> Git/GitHub, Reporting, AI/ML exposure, Problem Solving</div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="card">
+      <h3>Contract Data Engineer / Data Analyst (Current Role)</h3>
+      <ul>
+        <li>Build and maintain data pipelines using AWS cloud services</li>
+        <li>Support analytics and reporting with SQL and Python</li>
+        <li>Handle semi-structured and structured datasets in cloud data lakes</li>
+        <li>Exposure to AI/ML workflows and automation</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Tata Technologies – PLSQL Developer</h3>
+      <ul>
+        <li>Worked with Oracle DB and MySQL, designed database-driven web pages</li>
+        <li>Generated weekly & monthly business reports</li>
+        <li>Fixed bugs and optimized production systems</li>
+        <li>Delivered 10+ independent developments in one year</li>
+        <li>Led migration from Internet Explorer to Edge, refactoring JavaScript for compatibility</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Enterprise Data Pipeline on AWS</h3>
+        <p>Built ingestion → transformation → storage → analytics flow using S3, Glue, Snowflake, Airflow, Python.</p>
+      </div>
+      <div class="card">
+        <h3>Legacy Application Modernization</h3>
+        <p>Migrated IE-based system to Edge. Refactored JavaScript and backend integration for smooth transition.</p>
+      </div>
+      <div class="card">
+        <h3>Automated Reporting System</h3>
+        <p>Scheduled weekly & monthly reports via SQL + Python, reducing manual effort and improving accuracy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <ul>
+        <li>Master’s in Computer Science</li>
+        <li>Bachelor’s in Computer Science</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Srikar Maadhu. All rights reserved.
+  </footer>
+
+</body>
+</html>
